@@ -1,0 +1,45 @@
+.jobapplicationform {
+  background-color: #eeeeee;
+}
+.info-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.info {
+  align-items: center;
+  padding: 10px 16px;
+  background-color: #eeeeee;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.dotted {
+  border-top: 3px dotted #c4c4c4;
+  width: 70%;
+}
+
+.label {
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  padding: 10px;
+
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12),
+    0px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}

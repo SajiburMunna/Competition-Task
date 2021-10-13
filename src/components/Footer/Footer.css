@@ -1,0 +1,32 @@
+.footer {
+  background-color: white;
+  margin: 20px;
+  height: 40px;
+}
+
+.footer-content {
+  display: flex;
+}
+.pre-button-div {
+  margin-left: 900px;
+  margin-right: 15px;
+}
+.pre-button {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.next-button {
+  background-color: rgba(52, 168, 83, 1);
+  border: 1px solid rgba(52, 168, 83, 1);
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  color: white;
+}
