@@ -14,6 +14,9 @@ import FilePresentOutlinedIcon from "@mui/icons-material/FilePresentOutlined";
 import ExplicitOutlinedIcon from "@mui/icons-material/ExplicitOutlined";
 import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlined";
 import AccessTimeOutlinedIcon from "@mui/icons-material/AccessTimeOutlined";
+import Checkbox from "@mui/material/Checkbox";
+
+const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
 const Jobapplicationform = () => {
   const applyInfo = [
@@ -49,10 +52,10 @@ const Jobapplicationform = () => {
   return (
     <>
       <div className="jobapplicationform">
-        <div style={{ padding: "20px", marginTop: "30px" }}>
+        <div className="jobapplicaton-title-div">
           <span>Job Application Form</span>
         </div>
-        <small style={{ margin: "20px" }}>
+        <small className="candidates-title">
           Candidates are required to apply with this application
         </small>
         <div className="info-div">
@@ -83,28 +86,27 @@ const Jobapplicationform = () => {
             </div>
           ))}
         </div>
-        <div style={{ display: "flex", margin: "20px" }}>
+        <div className="additional-info-title">
           <span>Additional Information</span>
 
           <hr className="dotted"></hr>
         </div>
-        <div style={{ display: "flex", margin: "20px" }}>
+        <div className="additional-info-content-div">
           <div style={{ marginTop: "25px" }}>
-            <input type="checkbox" id="myCheck"></input>
+            <Checkbox {...label} defaultChecked color="success" />
           </div>
 
           <div className="label">
             <div>
               <TextField
-                style={{ width: "400px" }}
+                className="text-field"
                 id="filled-basic"
                 label="label"
                 variant="filled"
+                color="success"
               />
             </div>
-            <div
-              style={{ marginTop: "15px", marginLeft: "5px", display: "flex" }}
-            >
+            <div className="text-field-button-div">
               <span>T</span>
               <div>
                 <select style={{ border: "none" }} name="topic" id="topic">
@@ -114,43 +116,39 @@ const Jobapplicationform = () => {
                 </select>
               </div>
               <div>
-                <FileCopyIcon style={{ color: "#666666" }} />
+                <FileCopyIcon className="icon-color" />
               </div>
               <div>
-                <DeleteIcon style={{ color: "#666666" }} />
+                <DeleteIcon className="icon-color" />
               </div>
             </div>
           </div>
           <div>
             <AddCircleIcon
               onClick={() => setAdd(true)}
-              style={{ color: "#34A853", marginTop: "20px", fontSize: "40px" }}
+              className="add-button"
+              style={{ fontSize: "30px" }}
             />
           </div>
         </div>
 
         {add ? (
-          <div style={{ display: "flex", margin: "20px" }}>
+          <div className="additional-info-content-div">
             <div style={{ marginTop: "25px" }}>
-              <input type="checkbox" id="myCheck"></input>
+              <Checkbox {...label} defaultChecked color="success" />
             </div>
 
             <div className="label">
               <div>
                 <TextField
-                  style={{ width: "400px" }}
+                  className="text-field"
                   id="filled-basic"
                   label="label"
                   variant="filled"
+                  color="success"
                 />
               </div>
-              <div
-                style={{
-                  marginTop: "15px",
-                  marginLeft: "5px",
-                  display: "flex",
-                }}
-              >
+              <div className="text-field-button-div">
                 <span>T</span>
                 <div>
                   <select style={{ border: "none" }} name="topic" id="topic">
@@ -160,23 +158,20 @@ const Jobapplicationform = () => {
                   </select>
                 </div>
                 <div>
-                  <FileCopyIcon style={{ color: "#666666" }} />
+                  <FileCopyIcon className="icon-color" />
                 </div>
                 <div>
                   <DeleteIcon
                     onClick={() => setAdd(false)}
-                    style={{ color: "#666666" }}
+                    className="icon-color"
                   />
                 </div>
               </div>
             </div>
             <div>
               <AddCircleIcon
-                style={{
-                  color: "#34A853",
-                  marginTop: "20px",
-                  fontSize: "40px",
-                }}
+                style={{ fontSize: "30px" }}
+                className="add-button"
               />
             </div>
           </div>

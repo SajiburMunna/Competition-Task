@@ -8,49 +8,37 @@ const Newjob = () => {
   return (
     <div>
       <div className="content-div">
-        <div style={{ display: "flex", marginLeft: "20px" }}>
-          <div>
-            <p>Create New Job</p>
-          </div>
-          <div style={{ marginLeft: "941px" }}>
-            <p> 𐤕</p>
-          </div>
+        <div className="create-title-div">
+          <p>Create New Job</p>
+          <p style={{ marginLeft: "1060px" }}> 𐤕</p>
         </div>
 
-        <div style={{ display: "flex", marginLeft: "20px" }}>
-          <div>
+        <div className="create-info-div">
+          <div className="cont">
             <hr className="solid" />
-            <div style={{ display: "flex" }}>
-              <CircleOutlinedIcon
-                style={{ fontSize: "20px", color: "#34A853" }}
-              />
+            <div className="create-info-content">
+              <CircleOutlinedIcon className="info-icon" />
               <span>Basic Information</span>
             </div>
           </div>
-          <div>
+          <div div className="cont">
             <hr className="solid" />
-            <div style={{ display: "flex" }}>
-              <CircleOutlinedIcon
-                style={{ fontSize: "20px", color: "#34A853" }}
-              />
+            <div className="create-info-content">
+              <CircleOutlinedIcon className="info-icon" />
               <span>Job Summary</span>
             </div>
           </div>
-          <div>
+          <div div className="cont">
             <hr className="solid3" />
-            <div style={{ display: "flex" }}>
-              <CircleOutlinedIcon
-                style={{ fontSize: "20px", color: "#FCBD06" }}
-              />
+            <div className="create-info-content">
+              <CircleOutlinedIcon className="job-application-info" />
               <span>Job Application Form</span>
             </div>
           </div>
-          <div>
+          <div div className="cont">
             <hr className="solid4" />
-            <div style={{ display: "flex" }}>
-              <CircleOutlinedIcon
-                style={{ fontSize: "20px", color: " rgba(0, 0, 0, 0.12)" }}
-              />
+            <div className="create-info-content">
+              <CircleOutlinedIcon className="interview-pipe-line" />
               <span>Interview Pipeline</span>
             </div>
           </div>

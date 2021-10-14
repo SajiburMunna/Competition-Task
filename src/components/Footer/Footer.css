@@ -6,9 +6,10 @@
 
 .footer-content {
   display: flex;
+  width: 100%;
 }
 .pre-button-div {
-  margin-left: 900px;
+  margin-left: 1015px;
   margin-right: 15px;
 }
 .pre-button {
@@ -19,6 +20,7 @@
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
+  cursor: pointer;
 }
 .next-button {
   background-color: rgba(52, 168, 83, 1);
@@ -29,4 +31,5 @@
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
   color: white;
+  cursor: pointer;
 }

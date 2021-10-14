@@ -1,7 +1,5 @@
-import "./App.css";
-
 import Newjob from "./components/Newjob/Newjob";
-
+import "./App.css";
 function App() {
   return (
     <div>

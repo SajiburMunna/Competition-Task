@@ -1,13 +1,43 @@
 .content-div {
-  width: 1100px;
   height: 100%;
-  margin: 79px;
-
+  width: 100%;
   background-color: #ffffff;
   border: 1px solid #c1c9d2;
-  box-sizing: border-box;
   box-shadow: 0px 24px 50px rgba(55, 65, 81, 0.25);
   border-radius: 4px;
+}
+.cont {
+  width: 25%;
+}
+.cross-button {
+  margin-left: 900px;
+}
+
+.create-title-div {
+  display: flex;
+  margin-left: 20px;
+  width: 100%;
+}
+.create-info-div {
+  display: flex;
+  margin-left: 20px;
+  width: 100%;
+}
+.create-info-content {
+  display: flex;
+}
+.info-icon {
+  font-size: 20px;
+  color: #34a853;
+}
+
+.job-application-info {
+  color: #fcbd06;
+  font-size: 20px;
+}
+.interview-pipe-line {
+  color: rgba(0, 0, 0, 0.12);
+  font-size: 20px;
 }
 
 .solid {

@@ -1,13 +1,47 @@
 .jobapplicationform {
   background-color: #eeeeee;
 }
+.jobapplicaton-title-div {
+  padding: 20px;
+  margin-top: 30px;
+}
+.candidates-title {
+  margin: 20px;
+}
+.additional-info-title {
+  display: flex;
+  margin: 20px;
+}
+.additional-info-content-div {
+  display: flex;
+  margin: 20px;
+}
+.text-field {
+  width: 400px;
+}
+.text-field-button-div {
+  margin-top: 15px;
+  margin-left: 5px;
+  display: flex;
+}
+.icon-color {
+  color: #666666;
+  cursor: pointer;
+}
+.add-button {
+  font-size: large;
+  color: #34a853;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
 .info-div {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #ffffff;
-  padding: 20px;
-  margin: 20px;
+  padding: 30px;
+  margin: 30px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -29,7 +63,8 @@
 }
 .dotted {
   border-top: 3px dotted #c4c4c4;
-  width: 70%;
+  margin-left: 10px;
+  width: 50%;
 }
 
 .label {
